@@ -25,8 +25,7 @@ var Vue = (function (exports) {
     const extend = Object.assign;
     const remove = (arr, el) => {
         const i = arr.indexOf(el);
-        if (i > -1) {
-            arr.splice(i, 1);
+        if (i > -1) {e(i, 1);
         }
     };
     const hasOwnProperty$1 = Object.prototype.hasOwnProperty;
